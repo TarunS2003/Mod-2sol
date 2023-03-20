@@ -6,10 +6,10 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica; 
-  color: blue;
+  color: #00FFFF;
 }
 
 .row {
-  width=100%;
-   background-color: green;
+  width= 100%;
+   background-color: #AAFF00;
 }
