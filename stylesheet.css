@@ -1,1 +1,14 @@
+p { 
+  border: 1px solid #FFCE30;
+  bakground-color: #746AB0;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica; 
+  color: white;
+}
 
+.row {
+  width=100%
+}
