@@ -1,6 +1,6 @@
 p { 
   border: 1px solid #FFCE30;
-  bakground-color: #746AB0;
+  background-color: #746AB0;
   width: 90%;
   height: 150px;
   margin-right: auto;
@@ -11,5 +11,5 @@ p {
 
 .row {
   width=100%;
-   bakground-color: green;
+   background-color: green;
 }
