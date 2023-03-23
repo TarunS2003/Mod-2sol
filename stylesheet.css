@@ -7,7 +7,7 @@ p {
   margin-left: auto;
   font-family: Helvetica; 
   color: black;
-
+transition: background-color 2s ease-out 100ms
 float: left;
 }
 p:hover {
