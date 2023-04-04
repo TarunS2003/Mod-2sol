@@ -7,6 +7,9 @@ body{
     width: 100%;
     background:  #317773;
 }
+h1{
+  color: whitesmoke;
+}
 .container{ 
     height: 50%;
     border: 10px groove blanchedalmond;
@@ -190,7 +193,7 @@ body{
     background:  #317773;
 }
 .container{ 
-    height: aut;
+    height: auto;
     border: 10px groove blanchedalmond;
      transition: 1s;
      display: flex;
