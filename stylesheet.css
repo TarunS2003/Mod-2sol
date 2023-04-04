@@ -9,13 +9,15 @@ body{
 }
 h1{
   color: whitesmoke;
+ text-align: center;
+ margin: 100px;
 }
 .container{ 
     height: 50%;
     border: 10px groove blanchedalmond;
      transition: 1s;
      position: relative;
-
+text-align: center;
 }
 .Box 
 {
