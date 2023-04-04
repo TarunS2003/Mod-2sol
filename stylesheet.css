@@ -1,31 +1,166 @@
-p { 
-  border: 1px solid black;
-  background-color: #D1F2E3;
-  width: 50%;
-  height: 10%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica; 
-  color: black;
-transition: background-color 2s ease-out 100ms
-float: left;
+html {
+  width: 100%;
+  height: 100%;
 }
-p:hover {
+body{
+  height: 100%;
+    width: 100%;
+    background:  #317773;
+}
+.container{ 
+    height: 50%;
+    border: 10px groove blanchedalmond;
+     transition: 1s;
+     position: relative;
+
+}
+.Box 
+{
+  box-sizing: border-box;
+  border: 5px dashed blanchedalmond;
+background: #E2D1F9;
+  width: 33.33%;
+   height: 100%;
+color: black;
+font-weight: bold;
+   float:left;
+   font-size: 16px;
+   font-family: Helvetica;
+   overflow: hidden;
+   opacity: 0.7;
+   transition: 1s;
+   position: relative;
+   padding: 1px;
+
+   
+}
+.Box:hover{
   cursor: pointer;
-  background-color: indianred;
- 
+  background: #8AAAE5;
+  font-weight: bolder;
+  border:6px solid blanchedalmond;
+  font-size: 101%;
+  opacity: 100%;
+  color: darkred;
+  
 
 }
+.container:hover { 
+height: 52%;
 
-.cntn {
-  width= 100%;
-   background-color: #D1F2E3;
+
+
 }
-body {
-  background-color: #30F59E;
+/*large screens*/
+@media (min-width:992px)
+{
+  html {
+  width: 100%;
+  height: 100%;
 }
-@media (min-width:991px) 
-{ 
+body{
+  height: 100%;
+    width: 100%;
+    background:  #317773;
+}
+.container{ 
+    height: 50%;
+    border: 10px groove blanchedalmond;
+     transition: 1s;
+     position: relative;
+
+}
+.Box 
+{
+  box-sizing: border-box;
+  border: 5px dashed blanchedalmond;
+background: #E2D1F9;
+  width: 33.33%;
+   height: 100%;
+color: black;
+font-weight: bold;
+   float:left;
+   font-size: 16px;
+   font-family: Helvetica;
+   overflow: hidden;
+   opacity: 0.7;
+   transition: 1s;
+   position: relative;
+   padding: 1px;
+
+   
+}
+.Box:hover{
+  cursor: pointer;
+  background: #8AAAE5;
+  font-weight: bolder;
+  border:6px solid blanchedalmond;
+  font-size: 101%;
+  opacity: 100%;
+  color: darkred;
+  
+
+}
+.container:hover { 
+height: 52%;
 
 
+
+}
+}
+@media (min-width:768px) and (max-width:991px)
+{
+   html {
+  width: 100%;
+  height: 100%;
+}
+body{
+  height: 50%;
+    width: 100%;
+    background:  #317773;
+}
+.container{ 
+    height: 100%;
+    border: 10px groove blanchedalmond;
+     transition: 1s;
+     position: relative;
+
+}
+.Box 
+{
+  box-sizing: border-box;
+  border: 5px dashed blanchedalmond;
+background: #E2D1F9;
+  width: 50%;
+   height: 100%;
+color: black;
+font-weight: bold;
+   float:left;
+   font-size: 16px;
+   font-family: Helvetica;
+   overflow: hidden;
+   opacity: 0.7;
+   transition: 1s;
+   position: relative;
+   padding: 1px;
+
+   
+}
+.Box:hover{
+  cursor: pointer;
+  background: #8AAAE5;
+  font-weight: bolder;
+  border:6px solid blanchedalmond;
+  font-size: 101%;
+  opacity: 100%;
+  color: darkred;
+  
+
+}
+div:nth-child(3){
+  width: 100%;
+}
+.container:hover { 
+height: 52%;
+}
 }
